@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Number Conversion System</title>
+    <link rel="icon" href="https://i.ibb.co/Ksr4dxk/number-converter.png">
+	<link rel="stylesheet" href="static/style.css">
+	<script type="text/javascript" src="static/numconvert.js"></script>
+</head>
+
+<body>
+    <img id="icon" src="https://i.ibb.co/Ksr4dxk/number-converter.png" alt="icon">
+	<div id="home"><a href="/">🅽🆄🅼🅱🅴🆁 🆂🆈🆂🆃🅴🅼 🅲🅾🅽🆅🅴🆁🆃🅴🆁</a>
+	</div>
+	<div id="main">
+		<h1>🅻🅴🆃❜🆂 🅲🅾🅽🆅🅴🆁🆃</h1>
+		<noscript>
+			<div style="border: 2px solid red; padding: .2em; margin: 1em">
+				<h3>JavaScript disabled!</h3>
+				<p>This page does not work without JavaScript.</p>
+			</div>
+		</noscript>
+		<form id="conversion">
+			<table class="horizontal">
+				<tr>
+					<th scope="row">
+						<label for="base10">Decimal (10)</label>
+					</th>
+					<td>
+						<input type="text" name="base10" id="base10" size="18" oninput="numberOnInput(this)" maxlength="15">
+					</td>
+				</tr>
+				<tr>
+					<th scope="row">
+						<label for="base16">Hexadecimal (16)</label>
+					</th>
+					<td>
+						<input type="text" name="base16" id="base16" size="18" oninput="numberOnInput(this)" maxlength="12">
+					</td>
+				</tr>
+				<tr>
+					<th scope="row">
+						<label for="base8">Octal (8)</label>
+					</th>
+					<td>
+						<input type="text" name="base8" id="base8" size="18" oninput="numberOnInput(this)" maxlength="16">
+					</td>
+				</tr>
+				<tr>
+					<th scope="row">
+						<label for="base2">Binary (2)</label>
+					</th>
+					<td>
+						<input type="text" name="base2" id="base2" size="32" oninput="numberOnInput(this)" maxlength="48">
+					</td>
+				</tr>
+			</table>
+		</form>
+		<!-- main -->
+	</div>
+	<div id="footer">
+		<p>Any Bugs or Suggestions? 🤔</p>
+<a href="https://m.me/arnoykhan"><font color="7B9198">Please Give Feedbacks On My Facebook Messenger!</a><a> 😁</a>
+		<br>
+<a><font color="7B9198">(っ◔◡◔)っ  Developed by </a><a href="https://github.com/pegasus0069"><font color="FF0059">Noor-E Sadman Arnoy</a><a> ✌</a>
+	</div>
+</body>
+
+</html>
